@@ -11,19 +11,19 @@
 
 int main(void)
 {
-	char ch1= 'a';
-	char ch2= 'A';
+	char ch= 'a';
+	char CH= 'A';
 
-	while (ch1 <= 'a')
+	while (ch1 <= 'z')
 	{
-		putchar(ch1);
-		ch1++;
+		putchar(ch);
+		ch++;
 	}
 
-	while (ch2 <= 'A')
+	while (ch2 <= 'Z')
 	{
-		putchar(ch2);
-		ch2++;
+		putchar(CH);
+		CH++;
 	}	
 	putchar('\n');
 	return (0);
