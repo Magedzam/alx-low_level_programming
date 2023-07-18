@@ -1,7 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/**
+ * main - Entry Point.
+ *
+ * Description: Positive or Negative.
+ *
+ * Retrun: 0 (Success).
+*/
 int main(void)
 {
 	int n;
