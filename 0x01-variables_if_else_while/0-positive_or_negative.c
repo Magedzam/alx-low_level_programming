@@ -6,9 +6,9 @@
 /**
  * main - Entry Point.
  *
- * Description: Positive or Negative.
+ * Description : Positive or Negative.
  *
- * Retrun: 0 (Success).
+ * Retrun : 0 (Success).
 */
 
 
