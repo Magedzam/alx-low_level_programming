@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
  * main - Entry Point.
  *
  * Description: Positive or Negative.
  *
- * Retrun : 0 (Success).
-*/
+ * Return: Always 0 (Success).
+ *
+*/i
 
 
 int main(void)
