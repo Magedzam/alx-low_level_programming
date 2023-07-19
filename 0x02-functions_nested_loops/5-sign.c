@@ -1,6 +1,12 @@
 #include "main.h"
 
-/***/
+/**
+ * print_sign - funtion print the sign of an input number
+ *
+ * @n: takes integer type input for function
+ *
+ * Return: 1 if +, 0 if 0 and -1 if -
+*/
 
 
 int print_sign(int n)
@@ -20,5 +26,5 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-return (0);	
+return (0);
 }
