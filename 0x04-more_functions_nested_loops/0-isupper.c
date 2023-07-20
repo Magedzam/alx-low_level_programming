@@ -1,12 +1,19 @@
 #include "main.h"
 
 
-/***/
+/**
+ * _isupper - chech if c is uppercase
+ *
+ * @c: input for alphabet
+ *
+ * Return: 1 if it is uppercase other wise (0) (Success)
+*/
 
 
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
-	return (0);
-}	
+	else
+		return (0);
+}
