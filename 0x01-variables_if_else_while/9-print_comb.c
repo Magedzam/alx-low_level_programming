@@ -1,6 +1,15 @@
 #include <stdio.h>
 
 
+/**
+ * main - Entry Point.
+ *
+ * Description: print 0, 1, 2,....,9
+ *
+ * Return: Always 0 (Success).
+ *
+*/
+
 int main(void)
 {
 	int i;
@@ -9,7 +18,7 @@ int main(void)
 	{
 		putchar(i);
 		if ( i != 57)
-		{	
+		{
 		putchar(',');
 		putchar(' ');
 		}
