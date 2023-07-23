@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-
+/**
+ * main - Entry Point.
+ *
+ * Description:  print all single digit numbers.
+ *
+ * Return: Always 0 (Success).
+ *
+*/
 
 int main(void)
 {
