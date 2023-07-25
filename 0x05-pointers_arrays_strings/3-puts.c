@@ -4,5 +4,8 @@
 
 void _puts(char *str)
 {
-	printf("%c"; *str);
-}
+	for (*str = 0; *str != '\0'; str++)
+	{
+		printf("%c"; *str);
+	}
+}	
