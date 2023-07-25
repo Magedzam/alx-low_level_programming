@@ -3,9 +3,6 @@
 
 void swap_int(int *a, int *b)
 {
-	a = &a;
-	b = &b;
-
-	*a = 42;
-	*b = 98
+	*a = 98;
+	*b = 42;
 }
