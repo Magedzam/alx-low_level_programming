@@ -5,7 +5,7 @@
  *                   using two input parameters
  *
  * @a: int parameter 1
- * @b; int parameter 2
+ * @b: int parameter 2
  *
  * Return: Nothing
  *
