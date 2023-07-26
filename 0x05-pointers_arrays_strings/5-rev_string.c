@@ -4,14 +4,18 @@
 
 void rev_string(char *s)
 {
-	int i = 0;
+	int l = 0;
+	int i;
+	char = temp;
 
-	while (s[i])
+	while (s[l])
 	{
-		i++;
+		l++;
 	}
-	while (i--)
+	for (i = 0; i < l / 2; i++)
 	{
-		_putchar(s[i]);
+		temp = s[i];
+		s[i] = s[l - 1 - i];
+		s[l - 1 - i] = temp;
 	}
 }
