@@ -6,7 +6,7 @@
  *
  * @str: char array string type
  *
- * Description: if odd number of chars, print [length - 1] / 2 
+ * Description: if odd number of chars, print [length - 1] / 2
 */
 
 
