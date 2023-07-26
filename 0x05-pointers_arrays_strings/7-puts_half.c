@@ -1,26 +1,27 @@
 #include "main.h"
 
 
+/**
+ * puts_half - print second half of a string
+ *
+ * @str: char array string type
+ *
+ * Description: if odd number of chars, print [length - 1] / 2 
+*/
+
+
+
 void puts_half(char *str)
 {
-	int i = 0;
-	int l;
+	int i;
 
-	while (str[i] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
+		;
+
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
-		i++;
+		_putchar(str[i]);
 	}
-	if(i % 2 == 0)
-	{
-		l = i / 2;
-	}
-	else
-	{
-		l = (i - 1) / 2;
-	}
-	while (l <= i)
-	{
-		_putchar(str[l]);
-		l++;
-	}
-}			
+	_putchar('\n');
+}
