@@ -14,16 +14,17 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int l = 0;
+	int i;
+	char temp;
 
-	while (s[i])
+	while (s[l])
 	{
-		i++;
+		l++;
 	}
-
-	while (i--)
+	for (i = 0; i < l / 2; i++)
 	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
+		temp = s[l];
+		s[l] = s[l - 1 - i];
+		s[l - 1 - i] = temp;
 }
