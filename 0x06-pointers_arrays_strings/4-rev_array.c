@@ -3,10 +3,11 @@
 
 /**
  * reverse_array - reverses the content of an array of intgers
+ *
  * @a: an array of integrs
  * @n: the number of element to swap
- * Return: nothing
  *
+ * Return: nothing
 */
 
 
