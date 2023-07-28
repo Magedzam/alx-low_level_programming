@@ -9,7 +9,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		c++;
 	}
-	for (c1 = 0; c1 <= n; c1++)
+	for (c1 = 0; c1 < n && src[c1]; c1++)
 	{
 		dest[c] = src[c1];
 		c++;
