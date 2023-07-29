@@ -55,7 +55,7 @@ char *cap_string(char *s)
 	{
 		if (isdelimiter(*s))
 			foundDelimit = 1;
-		else if
+		else if (islower(*s) && foundDelimit)
 		{
 			*s -= 32;
 			foundDelimit = 0;
