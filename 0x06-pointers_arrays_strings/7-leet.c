@@ -14,7 +14,7 @@ char *leet(char *s)
 	int mum[] = {'4', '3', '0', '7', '1'};
 	int i;
 
-	while (*s != '\0')
+	while (*s)
 	{
 		for (i = 0; i < 5; i++)
 		{
