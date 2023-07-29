@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if (*s == arr[i] || *s == arr[i] - 32)
+			if(*s == arr[i] || *s == arr[i] - 32)
 			{
 				*s = mum[i];
 			}
