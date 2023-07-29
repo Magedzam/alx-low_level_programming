@@ -23,6 +23,7 @@ int islower(char c)
  *
 */
 
+
 int isdelimiter(char c)
 {
 	int i;
@@ -34,8 +35,8 @@ int isdelimiter(char c)
 		{
 			return (1);
 		}
-	return (0);
 	}
+	return (0);
 }
 
 
