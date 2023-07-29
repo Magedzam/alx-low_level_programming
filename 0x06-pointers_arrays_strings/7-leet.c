@@ -11,10 +11,10 @@ char *leet(char *s)
 {
 	char *ss = s;
 	char arr[] = {'a', 'e', 'o', 't', 'l'};
-	int mum[] = {'4', '3', '0', '7', '1'};
+	char mum[] = {'4', '3', '0', '7', '1'};
 	int i;
 
-	while (*s)
+	while (*s != '\0')
 	{
 		for (i = 0; i < sizeof(arr) / sizeof(char); i++)
 		{
