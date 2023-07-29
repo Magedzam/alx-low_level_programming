@@ -9,6 +9,7 @@
 
 char *leet(char *s)
 {
+	char *ss = s;
 	char arr[] = {'a' , 'e' , 'o' , 't' , 'l'};
 	int mum[] = {'4' , '3' , '0' , '7' , '1'};
 	int i;
@@ -17,12 +18,12 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if(*s == arr[i] || *s == arr[i] - 32)
+			if (*s == arr[i] || *s == arr[i] - 32)
 			{
-				*s = mum[i];
+				*s = mum[i] + 48;
 			}
 		}
 		s++;
 	}
-	return (s);
+	return (ss);
 }
