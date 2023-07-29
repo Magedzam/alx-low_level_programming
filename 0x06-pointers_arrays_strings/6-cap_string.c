@@ -26,7 +26,7 @@ int islower(char c)
 int isdelimiter(char c)
 {
 	int i;
-	char no[] = " \t\n,.?;"{}()!";
+	char no[] = " \t\n,.?;\"{}()!";
 
 	for (i = 0; i < 13; i++)
 	{
