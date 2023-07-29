@@ -11,7 +11,6 @@ char *string_toupper(char *str)
 		{
 			str[i] = str[i] - 32;
 		}
-		printf("%c", str[i]);
 	}
 	return (str);
 
