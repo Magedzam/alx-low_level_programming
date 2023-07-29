@@ -13,4 +13,5 @@ char *string_toupper(char *)
 		}
 		printf("%c", str[i]);
 	}
+	return (str);
 }
