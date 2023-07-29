@@ -46,7 +46,7 @@ int isdelimiter(char c)
  *
 */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	char *ss = s;
 	int foundDelimit = 1;
