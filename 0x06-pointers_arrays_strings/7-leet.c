@@ -11,12 +11,12 @@ char *leet(char *s)
 {
 	char *ss = s;
 	char arr[] = {'a', 'e', 'o', 't', 'l'};
-	char mum[] = {'4', '3', '0', '7', '1'};
+	int mum[] = {'4', '3', '0', '7', '1'};
 	int i;
 
 	while (*s != '\0')
 	{
-		for (i = 0; i < sizeof(arr) / sizeof(char); i++)
+		for (i = 0; i < 5; i++)
 		{
 			if (*s == arr[i] || *s == arr[i] - 32)
 			{
