@@ -1,7 +1,7 @@
 #include "main.h"
 
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i;
 
@@ -14,4 +14,5 @@ char *string_toupper(char *)
 		printf("%c", str[i]);
 	}
 	return (str);
+
 }
