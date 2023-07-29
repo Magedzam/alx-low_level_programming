@@ -19,6 +19,6 @@ char *cap_string(char *s)
 			}
 		}
 		s++;
-		return (ss);
 	}
+	return (ss);
 }
